@@ -6,7 +6,8 @@ from bs4 import BeautifulSoup
 import openpyxl
 
 # Lade spaCy-Modell (ohne Download-Versuch)
-nlp = spacy.load("en_core_web_sm")
+import en_core_web_sm
+nlp = en_core_web_sm.load()
 
 # Funktion zum Scrapen von Artikeln
 def scrape_articles(url):
