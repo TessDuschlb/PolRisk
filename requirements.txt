@@ -1,0 +1,6 @@
+streamlit
+pandas
+spacy
+requests
+beautifulsoup4
+openpyxl
