@@ -1,12 +1,12 @@
 import streamlit as st
 import pandas as pd
 import spacy
+import en_core_web_sm
 import requests
 from bs4 import BeautifulSoup
 import openpyxl
 
-# Lade spaCy-Modell (ohne Download-Versuch)
-import en_core_web_sm
+# Lade spaCy
 nlp = en_core_web_sm.load()
 
 # Funktion zum Scrapen von Artikeln
